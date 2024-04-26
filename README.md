@@ -1,3 +1,32 @@
+```bash
+forge inspect TSwapPool methods
+```
+{
+  "allowance(address,address)": "dd62ed3e",
+  "approve(address,uint256)": "095ea7b3",
+  "balanceOf(address)": "70a08231",
+  "decimals()": "313ce567",
+  "deposit(uint256,uint256,uint256,uint64)": "4b785efe",
+  "getInputAmountBasedOnOutput(uint256,uint256,uint256)": "ff792c96",
+  "getMinimumWethDepositAmount()": "3f163cdf",
+  "getOutputAmountBasedOnInput(uint256,uint256,uint256)": "6b3c4779",
+  "getPoolToken()": "dc0374d1",
+  "getPoolTokensToDepositBasedOnWeth(uint256)": "e29e0378",
+  "getPriceOfOnePoolTokenInWeth()": "b7e7fdcc",
+  "getPriceOfOneWethInPoolTokens()": "8fd78242",
+  "getWeth()": "107c279f",
+  "name()": "06fdde03",
+  "sellPoolTokens(uint256)": "35e6bf53",
+  "swapExactInput(address,uint256,address,uint256,uint64)": "3dd5e20d",
+  "swapExactOutput(address,address,uint256,uint64)": "4e6d9df8",
+  "symbol()": "95d89b41",
+  "totalLiquidityTokenSupply()": "85b29438",
+  "totalSupply()": "18160ddd",
+  "transfer(address,uint256)": "a9059cbb",
+  "transferFrom(address,address,uint256)": "23b872dd",
+  "withdraw(uint256,uint256,uint256,uint64)": "8933da3a"
+}
+
 <p align="center">
 <img src="./images/t-swap-youtube-dimensions.png" width="400" alt="t-swap">
 <br/>
